@@ -18,15 +18,16 @@
 .container-item{
     position: absolute;
     display: flex;
-
     width: 50vw;
     height: 50vh;
     border-radius: 10px ;
+    transition: all 1s;
 }
 
 .item{
     width: 50vw;
     height: 50vh;
+    
 }
 
 .item:first-child{
